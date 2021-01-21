@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		char data1 = 65;
+		long data2 = 65;
+		float data3 = new Float("-65.0");
+		short data4 = new Short("65.0");
+		
+		
+	}
+	
+	public static String getBirthdate() {
+		System.out.println("»ýÀÏ yymmdd: ");
+		Scanner sc= new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+	}
+
+}

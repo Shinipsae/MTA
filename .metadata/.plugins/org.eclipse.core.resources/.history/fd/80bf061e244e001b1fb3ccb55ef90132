@@ -1,0 +1,17 @@
+package q01;
+
+public class Q01 {
+	
+	public static void main(String[] args) {
+		double pi = Math.PI; // 3.141592...
+		double x = 1.9999;
+		
+		System.out.format("PI is %.3f%n", pi); // 소수점 이하 세 자리 -> 3.142
+		System.out.format("PI is %.0f%n", pi); // 정수 -> 3
+		System.out.format("PI is %.09f%n", pi); // 소수점 이하 아홉 자리 -> 3.141592654
+		
+		System.out.format("x is %.3f%n", x); // 소수점 이하 세 자리(반올림) -> 2.000
+		System.out.format("x is %.0f%n", x); // 정수 -> 2
+		System.out.format("x is %.09f%n", x); // 소수점 이하 아홉 자리 -> 1999900000
+	}	
+}

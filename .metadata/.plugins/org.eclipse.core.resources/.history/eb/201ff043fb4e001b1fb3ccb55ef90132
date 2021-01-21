@@ -1,0 +1,9 @@
+package main;
+import p1.*;s;
+	class A {
+		public static void main(String[] args){{
+			System.out.println("Hello World");
+		}
+	}
+
+}

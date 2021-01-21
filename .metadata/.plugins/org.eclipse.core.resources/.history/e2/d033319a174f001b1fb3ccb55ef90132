@@ -1,0 +1,16 @@
+package q20;
+
+import java.util.Scanner;
+
+public class Q20 {
+
+	public static String main(String[] args) {
+		System.out.println("»ıÀÏ");
+		Scanner sc = new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+
+	}
+
+}

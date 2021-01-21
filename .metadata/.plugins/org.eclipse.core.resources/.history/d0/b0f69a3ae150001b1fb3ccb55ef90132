@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		int number = 1;
+		// String text1 = '' + number;
+		String text2 = "" + number;
+		// String text3 = number.toString();
+		String text4 = String.valueOf(number);
+		
+		System.out.println(text4 instanceof String);
+		
+	}
+	
+	public static String getBirthdate() {
+		System.out.println("»ýÀÏ yymmdd: ");
+		Scanner sc= new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+	}
+
+}

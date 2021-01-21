@@ -1,0 +1,18 @@
+public class ex01 {
+
+	public static void main(String[] args) {
+		String s1 = "hw";
+		String s2 = "hw";
+		String s3 = s2;
+		String s4 = new String("hw");
+		System.out.println(s3 == s2);
+		System.out.println(s1 == s4);
+		System.out.println(1/0);
+	}
+	
+	public static void convertStringToNumber(String numberAsString) {
+		double number = Double.parseDouble(numberAsString);
+		System.out.println(number);
+	}
+	
+}

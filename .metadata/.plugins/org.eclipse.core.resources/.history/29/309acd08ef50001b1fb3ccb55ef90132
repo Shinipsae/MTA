@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		double dNum = 2.999999999999;
+		int iNum = 0;
+		iNum = (int)dNum;
+		System.out.println(iNum);
+	}
+	
+	public static String getBirthdate() {
+		System.out.println("»ıÀÏ yymmdd: ");
+		Scanner sc= new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+	}
+
+}

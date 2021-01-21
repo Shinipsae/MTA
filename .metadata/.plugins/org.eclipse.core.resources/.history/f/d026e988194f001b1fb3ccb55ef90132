@@ -1,0 +1,30 @@
+package q20;
+
+import java.io.IOException;
+
+import org.omg.CORBA.portable.InputStream;
+
+public class Q20 {
+	
+	public static void main(String[] args) throws IOException {
+		System.out.println(getBirthDate());
+	}
+
+/*	public static String getBirthDate() {
+		System.out.println("积老");
+		Scanner sc = new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+
+	} */
+	
+	public static int getBirthDate() throws IOException {
+		System.out.println("积老");
+		InputStream stream = (InputStream) System.in;
+		int birthdate = stream.read();
+		stream.close();
+		return birthdate;
+	}
+
+}

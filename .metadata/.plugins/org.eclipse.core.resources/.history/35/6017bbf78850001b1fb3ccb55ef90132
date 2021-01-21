@@ -1,0 +1,11 @@
+package q35;
+
+public class Q35 {
+
+	public static void main(String[] args) {
+		String firstName = "Christopher";
+		firstName = firstName.substring(0, 5);
+		String output = String.format("%s is %d characters long", firstName, firstName.length());
+	}
+
+}

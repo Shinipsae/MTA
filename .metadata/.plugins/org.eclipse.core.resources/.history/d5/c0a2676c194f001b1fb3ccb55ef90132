@@ -1,0 +1,28 @@
+package q20;
+
+import org.omg.CORBA.portable.InputStream;
+
+public class Q20 {
+	
+	public static void main(String[] args) {
+		System.out.println(getBirthdate());
+	}
+
+/*	public static String getBirthdate() {
+		System.out.println("积老");
+		Scanner sc = new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+
+	} */
+	
+	public static int getBirthDate() {
+		System.out.println("积老");
+		InputStream stream = System.in;
+		int birthdate = stream.read();
+		stream.close();
+		return birthdate;
+	}
+
+}

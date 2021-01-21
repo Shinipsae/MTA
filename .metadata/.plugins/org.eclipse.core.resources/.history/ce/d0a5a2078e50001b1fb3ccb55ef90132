@@ -1,0 +1,11 @@
+package q36;
+
+public class Q36 {
+
+	public static void main(String[] args) {
+		String numberString = "100";
+		System.out.println(Double.parseDouble(numberString));
+		System.out.println(numberString.getClass().getName());
+	}
+
+}

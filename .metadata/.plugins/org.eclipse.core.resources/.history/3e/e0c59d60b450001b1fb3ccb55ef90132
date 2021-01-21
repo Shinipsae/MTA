@@ -1,0 +1,20 @@
+package q44;
+
+public class Q44 {
+
+	public static void main(String[] args) {
+
+		try {
+			int x = 0 / 1;
+			System.out.println("try");
+		} catch (ArithmeticException ex) {
+			System.out.println("catch ArithmeticException");
+		} catch (Exception ex) {
+			System.out.println("Catch Exception");
+		} finally {
+			System.out.println("finally");
+		}
+
+	}
+
+}

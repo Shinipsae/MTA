@@ -1,0 +1,14 @@
+package q38;
+
+public class Q38 {
+
+	public static void main(String[] args) {
+		int n = 10;
+		// valueOf()
+		Integer iNum1 = Integer.valueOf(n);
+		// casting
+		Integer iNum2 = (Integer)n;
+		
+	}
+
+}

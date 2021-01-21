@@ -1,0 +1,21 @@
+package q17;
+
+public class Q17 {
+
+	public static void main(String[] args) {
+		System.out.println("Hello, World!");
+		number(12, 10);
+	}
+	
+	public int number(int x, int y) {
+		if(x > y) {
+			System.out.println(x);
+			return x;
+		}
+		else {
+			System.out.println(y);
+			return y;
+		}
+	}
+
+}

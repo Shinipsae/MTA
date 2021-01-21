@@ -1,0 +1,18 @@
+package q12;
+
+public class Q12 {
+	// 코드 실행결과는?
+	public static void main(String[] args) {
+		double dNum = 2.667;
+		int iNum = 0;
+		iNum= (int)dNum;
+		System.out.println(iNum); // 2 (반올림하지않음)
+
+	}
+
+}
+
+
+
+
+

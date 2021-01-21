@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		String name = "ipsae";
+		name.substring(3);
+	}
+	
+	public static String getBirthdate() {
+		System.out.println("»ıÀÏ yymmdd: ");
+		Scanner sc= new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+	}
+
+}

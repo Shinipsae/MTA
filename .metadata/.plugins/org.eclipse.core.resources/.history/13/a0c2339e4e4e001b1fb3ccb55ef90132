@@ -1,0 +1,10 @@
+package q08;
+
+public class Q08 {
+	// 범위를 넘어서는 값인지 판단
+	public static void main(String[] args) {
+		long num = 300000000;
+		System.out.println("number:" + num);
+	}
+
+}

@@ -1,0 +1,14 @@
+package q39;
+
+public class Q39 {
+
+	public static void main(String[] args) {
+		String name = "신잎새";
+		int age = 19;
+		float eye = 1.5f;
+		int money = 1000000;
+		String info = String.format("이름:%s, 나이:%d, 시력:%.1f, 가진현금:%d원,"
+				+ name, age, eye, money)
+	}
+
+}

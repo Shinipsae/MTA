@@ -1,0 +1,16 @@
+package q18;
+
+public class Q18 {
+	// 문자열 값 비교하기
+	public static void main(String[] args) {
+		String text1 = new String("Hello");
+		String text2 = new String("Hello");
+		System.out.println(text1 == text2);
+		
+		String text3 = "hello";
+		String text4 = "hello";
+		System.out.println(text1 == text2);
+
+	}
+
+}

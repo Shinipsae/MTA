@@ -1,0 +1,12 @@
+public class ex01 {
+
+	public static void main(String[] args) {
+		convertStringToNumber(1234);
+	}
+	
+	public static void convertStringToNumber(String numberAsString) {
+		String number = Double.parseDouble(numberAsString);
+		System.out.println(number);
+	}
+	
+}

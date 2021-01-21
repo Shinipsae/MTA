@@ -1,0 +1,11 @@
+package q01;
+
+public class Q01 {
+	
+	public static void main(String[] args) {
+		double pi = Math.PI;
+		System.out.format("PI is %. 3f%n", pi);
+		System.out.format("PI is %. 0f%n", pi);
+		System.out.format("PI is %. 09f%n", pi);
+	}	
+}

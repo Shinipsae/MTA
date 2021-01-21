@@ -1,0 +1,15 @@
+package q03;
+
+public class Q03 {
+/* number이라는 숫자 원시 변수를 text라는 String 변수로 변환하는 
+ * Java 코드를 작성하고 있다.
+ * 요건을 충족하면 예, 그렇지 않으면 아니오를 선택하시오.*/
+	public static void main(String[] args) {
+		int number = 10;
+		String text1 = '' + number; // 작은따옴표 안됨
+		String text2 = "" + number;
+		String text3 = number.toString(); // number가 기본타입이라서 안됨
+		String text3 = String.valueOf(number)
+	}
+	
+}

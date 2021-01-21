@@ -1,0 +1,33 @@
+package q42;
+
+public class Q42 extends Account{
+	double rate = 0.02;
+	int balance = 0;
+	
+	Q42(double startingBalance){
+		super(startingBalance);
+	}
+	
+	public int getBalance() {
+		return balance;
+	}
+
+	public static void main(String[] args) {
+		Q42 q = new Q42(0.9);
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("Savings Current Balance: $%2f", 
+				this.getBalance());
+	}
+
+}
+
+class Account{
+
+	public Account(double startingBalance) {
+		
+	}
+	
+}

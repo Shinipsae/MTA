@@ -1,0 +1,16 @@
+package q05;
+
+public class Q05 {
+
+	public static void main(String[] args) {
+		int n = 10;
+		Integer intObject = n; // auto boxing
+		// Integer intObject = Integer.valueOf(n); 와 같음
+		System.out.println("intObject: " + intObject);
+		
+		int m = intObject + 10; // auto boxing
+		// int m = intObject.intValue() + 10; // 와 같음
+		System.out.println("m: " + m);
+	}
+
+}

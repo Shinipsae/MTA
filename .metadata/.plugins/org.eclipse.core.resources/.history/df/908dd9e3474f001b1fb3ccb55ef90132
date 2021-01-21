@@ -1,0 +1,39 @@
+package q20;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+public class Q20 {
+	
+	public static void main(String[] args) {
+		try {
+			System.out.println(getBirthDate());
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	// Scanner를 이용하는 방법
+/*	public static String getBirthDate() { 
+		System.out.print("생일을 YYYYMMDD 형식으로 입력하세요: ");
+		Scanner sc = new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+
+	} */
+	
+	// InputStream을 이용하는 방법 (출제빈도 낮음)
+	public static int getBirthDate() throws IOException { 
+		System.out.print("생일을 YYYYMMDD 형식으로 입력하세요: ");
+		InputStream stream = System.in;
+		int birthdate = stream.read();
+		stream.close();
+		return birthdate;
+	}
+
+}
+
+
+
+

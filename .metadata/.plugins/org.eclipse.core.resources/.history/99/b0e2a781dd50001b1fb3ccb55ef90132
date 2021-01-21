@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+	
+		System.out.println("»ıÀÏ yymmdd: ");
+		Scanner sc= new Scanner(System.in);
+		String birthdate = sc.next();
+		sc.close();
+		return birthdate;
+		
+	}
+
+}

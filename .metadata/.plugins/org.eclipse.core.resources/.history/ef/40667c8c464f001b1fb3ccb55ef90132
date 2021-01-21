@@ -1,0 +1,21 @@
+package q18;
+
+public class Q18 {
+	// 문자열 값 비교하기
+	public static void main(String[] args) {
+		String text1 = new String("Hello");
+		String text2 = new String("Hello");
+		System.out.println(text1 == text2); // false (주소값비교)
+		System.out.println(text1.equals(text2)); // true (값비교)
+		
+		String text3 = "hello";
+		String text4 = "hello1";
+		String text5 = text4.substring(0, 5);
+		String text6 = "hello";
+		System.out.println(text3 == text6); // true
+		System.out.println(text3 == text5); // false
+		System.out.println(text3.equals(text6)); // false
+
+	}
+
+}
